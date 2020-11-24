@@ -1,0 +1,299 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+}
+body{
+    background-color: #1a1a2e;
+}
+
+/*HEADER LINKS*/
+.nav-header ul li{
+    overflow: hidden;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 16px;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+a:hover{
+    color: #e94560;
+    text-decoration: none;
+}
+/*END OF HEADER LINKS*/
+
+/*WELCOME SECTION*/
+
+/*This is Someluckyboy title*/
+.welcome-title{
+    color: white;
+    position: relative;
+    font-size: 3em;
+    margin: 52px 30px;
+    margin-left: 40px;
+
+    
+}
+section > .welcome{
+    display: inline-block;
+    height: 100vh;
+
+}
+
+.profile-pic{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 50%;
+}
+img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 45%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 3em;
+    padding-right: 2px;
+    float: left;
+}
+.quote{
+    margin-top: 50px;
+    margin-right: 14px;
+    padding-top: 12px;
+    padding-right: 14px;
+    position: relative;
+}
+
+/*My quote*/
+.quote > p{
+    color: white;
+    font-size: 26px;
+    margin-left: 8px;
+    word-spacing: 4px;
+    margin-top: 8px;
+    margin-right: 4px;
+    
+}
+
+/*END OF WELCOME SECTION*/
+
+/*STATS SECTION*/
+
+.stats-content{
+   /* background: rgb(255,45,45);
+    background: linear-gradient(0deg, rgba(255,45,45,1) 31%, rgba(255,53,79,1) 71%);*/
+    background-color: #e94560;
+    height: 120vh;
+    width: auto;
+}
+
+.stats-content > .stats-header{
+    margin: auto;
+    margin-top: 15%;
+    padding-top: 5em;
+    width: 100%;
+    height: auto;
+    
+}
+.stats-title{
+    color: white;
+    font-size: 4em;
+    margin-top: 2em;
+    margin: 32px 44px;
+    padding: 10px;
+    overflow: hidden;
+}
+/*youtube 100k plaque image*/
+.yt-plaque>img{
+    width: 30%;
+    height: auto;
+    float:right;
+    padding-right: 30px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+/*Someluckyboy channel was launched in February 2016...*/
+.stats-content > p{
+    color :White;
+    font-size: 26px;
+    margin: 28px 38px;
+    margin-top: 5.5%;
+    padding: 12px 16px;
+    word-spacing: 4px;
+    overflow: hidden;
+}
+
+.stats-icons{
+    margin: 0;
+    padding: 0;
+}
+
+/*3 stats icons*/
+ .stats-icons >.fas{
+    color: white;
+    font-size: 7em;
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 20px 18px;
+    margin-top: 3.5em;
+    margin-left: 0;
+    padding-right: 0;
+    
+ }
+/*adds shadow to the 3 icons stats*/
+.fas{text-shadow:4px 8px rgba(0, 0, 0, 0.63)}
+
+/*Stats labels description*/
+.stats-icons > p{
+
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/*End of stats section*/
+
+/*Social Media section*/
+.header > h2{
+color: white;
+font-size: 5em;
+text-align: center;
+margin-left: 60px;
+padding: 20px 16px;
+padding-top: 1em;
+position: relative;
+}
+
+.social-media-section > .content{
+    /*background-color: #0f3460;*/
+   /* background-color: #482B89;*/
+   background: rgb(106,67,196);
+background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
+    height: 70vh;
+    width: auto;
+    
+}
+
+.social-apps-list{
+    margin-left: 40%;
+    position: absolute;
+    
+}
+
+/*Social media logos styled in circle*/
+.fab{
+    color: white;
+    padding: 20px;
+    margin: 42px 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
+    
+}
+
+.fab:hover{
+    background-color: white;
+    color: black;
+}
+.fa-twitter{
+    background-color: #00acee;
+}
+
+.fa-instagram{
+    background-color: #c32aa3;
+    background-color: #4c5fd7;
+    background-color: #7232bd;
+    background-color: #f46f30;
+    background-color: #ffdc7d;
+
+}
+
+.fa-twitch{
+    background-color: #9146ff;
+}
+
+.fa-facebook-f{
+    background-color: #1877f2;
+}
+
+.fa-youtube{
+    background-color: #ff0000;
+}
+
+.content > p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.content >.second-header{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 25%;
+    padding: 18px 12px;
+    position: absolute;
+}
+
+.email-link{
+    text-align: center;
+    margin-top: 16%;
+    margin-left: 39%;
+    margin-right: 30%;
+    padding: 32px 12px;
+    position: absolute;
+}
+.content > .email-link > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/*End of social media section*/
+
+
+/*Footer*/
+.footer-section{
+    background-color: black;
+    width: auto;
+    height: 25vh;
+}
+.footer{
+    margin: 40px 20px;
+    padding: 20px 30px;
+    font-size: 24px;
+    color: #B1B2D7;
+    float: left;
+}
+
+.footer-links{
+    margin: 10px 10px;
+    padding: 20px 15px;
+    
+}
+.footer-links ul li a{
+    margin-left: 50%;
+    list-style: none;
+    padding: 30px 15px;
+    font-size: 24px;
+    color: #B1B2D7;
+}
+.footer-links > .links  a:hover{
+    color: white;
+}

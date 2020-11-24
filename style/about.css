@@ -1,0 +1,466 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0B0B0B;
+    margin: 0;
+}
+
+/*Header important links*/
+.nav-header ul li{
+    overflow: hidden;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 16px;
+    display: inline-block;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+a:hover{
+    color: #e94560;
+    text-decoration: none;
+}
+/*START OF
+  About me section*/
+
+  section{
+    height: 100vh;
+}
+
+  /*Animating the "Who Am I?" text*/
+
+h1{
+    margin-top: 8px;
+    padding: 0;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    pointer-events: none;
+   opacity: 0.0;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+}
+/*End of animation Who am i?*/
+
+/*profile pic section*/
+.profile-pic{
+    background-image: url("/img/youtube/pfp.png");
+    background-position: center;
+}
+
+.profile-pic img{
+    max-width: 35%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: ProfilePicFadeIn ease 2s;
+    -webkit-animation: ProfilePicFadeIn ease 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes ProfilePicFadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*P TAGS STYLING*/
+.about-me-story p{
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    font-weight: 100;
+    word-spacing: 4px;
+    animation: TextFadeIn ease 4s;
+    -webkit-animation: TextFadeIn ease 4s;
+    animation-fill-mode: forwards;
+} /*ABOUT ME TEXT STYLING*/
+@keyframes TextFadeIn{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/*end of profile pic section*/
+
+/*about me story*/
+.about-me-story{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    padding: 18px 50px;
+    word-wrap: break-word;
+}
+
+/*Games/Series section*/
+
+section .games_series_section{
+    text-align: right;
+}
+
+.games_series_heading{
+    font-size: 2.5em;
+    color: white;
+    padding: 14px 50px;
+    margin-top: 1em;
+} /*GAMES/SERIES TITLE*/
+
+.games_series_info{
+    color: white;
+    padding: 20px 10px;
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 2.0;
+    margin-bottom: 3em;
+    
+}
+/*end of game/series sections*/
+
+
+/*STATISTICS SECTION*/
+
+ /*STATS SUBTITLE*/
+.stats-title{
+    color: white;
+    font-size: 3.5em;
+    padding: 50px 50px;
+}   /*STATS TITLE*/
+
+/*STATS1*/
+.stats-content{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon1{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.fas, .far{  
+    font-size: 60px;
+    font-weight: 300;
+    position: relative;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    /*ONLY STATS ICONS PROPERTIES*/    
+}
+
+.stats-info1{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8px;
+    word-spacing: 20px;
+}
+
+.small-info1{
+    margin-top: 0;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #B1B2D7;
+    word-spacing: 4px;
+}
+/*END OF STATS 1*/
+
+/*STATS 2*/
+.stats-content2{
+    display: inline-block;
+    width: 380px;
+    height: 180px
+}
+
+.stats-with-icon2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.icon2{
+    padding: 20px 10px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.stats-info2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 4px;
+    margin-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    word-spacing: 15px;
+}
+.small-info2{
+    font-size: 20px;
+    color: #B1B2D7;
+    word-spacing: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+/*END OF STATS 2*/
+
+/*STATS 3*/
+.stats-content3{
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+}
+
+.stats-with-icon3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fa-eye:before{
+    content:"\f06e";  
+}
+
+.icon3{
+    padding: 4px 10px;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+.stats-info3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 4px;
+
+}
+.small-info3{
+    font-size: 20px;
+    color: #B1B2D7;
+    word-spacing: 4px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/*END OF STATS 3*/
+
+/*STATS 4 */
+.stats-content4{
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+}
+
+.stats-with-icon4{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icon4{
+    padding: 4px 10px;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+.stats-info4{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+.small-info4{
+    font-size: 20px;
+    color: #B1B2D7;
+    word-spacing: 4px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/*END OF STATS 4*/
+
+
+/*TOP COUNTRIES STATS*/
+
+.top-countries-title{
+    margin-top: 1.5em;
+    color: white;
+    font-size: 3.5em;
+    padding: 50px 50px;
+}
+
+    /*CHART BARS*/
+.country1{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+}
+
+.chart-bar{ 
+    display: block;
+    height: 25px;
+    background: #01A061;
+    background: -webkit-linear-gradient(bottom, #01A061, #05FFB7);
+    background: -moz-linear-gradient(bottom, #01A061, #05FFB7);
+    background: linear-gradient(to top, #01A061, #05FFB7);
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 2em;
+    border-radius: 48px;
+    cursor: default;
+}/*CHART BAR STYLING*/
+
+.country2{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.country3{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.country4{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.country5{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+/*END OF TOP COUNTRIES STATS*/
+
+/*DEVICE TYPE STATS*/
+.top-devices-title{
+    margin-top: 50px;
+    font-size: 3.5em;
+    padding: 50px 50px;
+    color: white;
+}/*device type title*/
+
+.device-type{
+    display: inline-block;
+    font-size: 28px;
+    color: #B1B2D7;
+    padding: 2px;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.device-chart-bar{
+    display: block;
+    height: 25px;
+    background: #CE011C;
+    background: -webkit-linear-gradient(bottom, #CE011C, #FF5C59);
+    background: -moz-linear-gradient(bottom, #CE011C, #FF5C59);
+    background: linear-gradient(to top, #CE011C, #FF5C59);
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 2em;
+    border-radius: 48px;
+    cursor: default;
+}
+/*END OF CHARTS SECTION*/
+
+.divider{
+    padding: 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.latest-vids-section{
+    display: block;
+    margin-top: 70%;
+}
+.latest-vids-title{
+    color: white;
+    text-align: left;
+    padding: 20px 50px;
+    font-size: 3.5em;
+}
+.thumbnails{
+    width: 500px;
+    height: 500px;
+}
+
+.wrapper{
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.thumbnails img{ 
+    border-radius: 10px;
+    border: 1px solid white;
+    border-color: #FF0061;
+    margin-left: 4em;
+    size: 45%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.thumbnails img:hover{
+    -webkit-box-shadow: 0px -1px 9px 3px #FF4D76, 0px -1px 20px 13px rgba(255,107,137,0.47); 
+    box-shadow: 0px -1px 9px 3px #FF4D76, 0px -1px 20px 13px rgba(255,107,137,0.47);
+    display: inline-block;
+}
+/*END OF LATEST SECTION*/
+
+/*FOOTER SECTION*/
+
+footer{
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 100;
+    font-size: 28px;
+    padding: 20px 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
