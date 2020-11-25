@@ -4,6 +4,7 @@
     
     margin: 0;
 }
+
 body{
     background-color: #1a1a2e;
 }
@@ -176,11 +177,12 @@ padding-top: 1em;
 position: relative;
 }
 
+
 .social-media-section > .content{
     /*background-color: #0f3460;*/
    /* background-color: #482B89;*/
    background: rgb(106,67,196);
-background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
+    background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
     height: 70vh;
     width: auto;
     
@@ -189,7 +191,6 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 .social-apps-list{
     margin-left: 40%;
     position: absolute;
-    
 }
 
 /*Social media logos styled in circle*/
@@ -217,10 +218,7 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 
 .fa-instagram{
     background-color: #c32aa3;
-    background-color: #4c5fd7;
-    background-color: #7232bd;
-    background-color: #f46f30;
-    background-color: #ffdc7d;
+   
 
 }
 
@@ -272,7 +270,7 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 .footer-section{
     background-color: black;
     width: auto;
-    height: 25vh;
+    height: 20vh;
 }
 .footer{
     margin: 40px 20px;
