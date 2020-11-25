@@ -177,15 +177,16 @@ p{
 
 /*Footer*/
 footer{
-    height: 35vh;
+    height: 25vh;
     width: 100%;
     background-color: black;
+    list-style: none;
 }
 
 .footer{
     height: auto;
     width: 100%;
-    position: absolute;
+    
 }
 .footer>p{
     margin: 40px 20px;
@@ -198,15 +199,15 @@ footer{
 
 .footer-links{
     margin: 10px 10px;
-    padding: 20px 15px;
+    padding: 30px 15px;
     
 }
 .footer-links ul li a{
-    margin-left: 50%;
+    margin-left: 15%;
     padding: 30px 15px;
     font-size: 24px;
     color: #B1B2D7;
 }
-.links a:hover{
-    color: #e94560;
+ .footer-links > .links a:hover{
+    color: white;
 }
