@@ -4,6 +4,7 @@
     
     margin: 0;
 }
+
 body{
     background-color: #1a1a2e;
 }
@@ -138,7 +139,7 @@ img{
 /*3 stats icons*/
  .stats-icons >.fas{
     color: white;
-    font-size: 7em;
+    font-size: 4em;
     display: inline-block;
     margin: 5px 20px;
     padding: 20px 18px;
@@ -148,13 +149,13 @@ img{
     
  }
 /*adds shadow to the 3 icons stats*/
-.fas{text-shadow:4px 8px rgba(0, 0, 0, 0.63)}
+.fas{text-shadow:4px 2px rgba(0, 0, 0, 0.63)}
 
 /*Stats labels description*/
 .stats-icons > p{
 
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     margin-left: 10px;
     font-weight: bold;
     display: inline-block;
@@ -168,7 +169,7 @@ img{
 /*Social Media section*/
 .header > h2{
 color: white;
-font-size: 5em;
+font-size: 4em;
 text-align: center;
 margin-left: 60px;
 padding: 20px 16px;
@@ -176,34 +177,36 @@ padding-top: 1em;
 position: relative;
 }
 
+
 .social-media-section > .content{
     /*background-color: #0f3460;*/
-   /* background-color: #482B89;*/
-   background: rgb(106,67,196);
-background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
-    height: 70vh;
+    background-color: #5BBA6F;
+  /* background: rgb(106,67,196);
+    background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);*/
+    height: 80vh;
     width: auto;
     
 }
 
 .social-apps-list{
-    margin-left: 40%;
+    margin-left: 34em;
     position: absolute;
-    
 }
 
 /*Social media logos styled in circle*/
 .fab{
     color: white;
     padding: 20px;
-    margin: 42px 10px;
+    margin: 40px 6px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     transition-duration: 0.4s;
-    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.39);
+    -moz-box-shadow:    0px 5px 8px 0px rgba(50, 50, 50, 0.39);
+    box-shadow:         0px 5px 8px 0px rgba(50, 50, 50, 0.39);
     
 }
 
@@ -217,10 +220,7 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 
 .fa-instagram{
     background-color: #c32aa3;
-    background-color: #4c5fd7;
-    background-color: #7232bd;
-    background-color: #f46f30;
-    background-color: #ffdc7d;
+   
 
 }
 
@@ -244,11 +244,11 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 
 .content >.second-header{
     color: white;
-    font-size: 4em;
+    font-size: 3.5em;
     text-align: center;
     margin-top: 10%;
-    margin-left: 35%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 18%;
     padding: 18px 12px;
     position: absolute;
 }
@@ -256,7 +256,7 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 .email-link{
     text-align: center;
     margin-top: 16%;
-    margin-left: 39%;
+    margin-left: 36%;
     margin-right: 30%;
     padding: 32px 12px;
     position: absolute;
@@ -272,7 +272,7 @@ background: linear-gradient(0deg, rgba(106,67,196,1) 8%, rgba(72,43,137,1) 60%);
 .footer-section{
     background-color: black;
     width: auto;
-    height: 25vh;
+    height: 20vh;
 }
 .footer{
     margin: 40px 20px;

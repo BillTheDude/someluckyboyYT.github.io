@@ -60,7 +60,7 @@ h1{
 }
 
 .profile-pic img{
-    max-width: 35%;
+    max-width: 30%;
     height: auto;
     border-radius: 50%;
     display: block;
@@ -409,13 +409,13 @@ section .games_series_section{
 
 .divider{
     padding: 10px 10px;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/*Latest videos section styling*/
 .latest-vids-section{
     display: block;
-    margin-top: 70%;
+    margin-top: 90%;
 }
 .latest-vids-title{
     color: white;
