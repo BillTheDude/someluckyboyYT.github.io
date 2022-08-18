@@ -1,5 +1,5 @@
 # YouTube Content Creator Personal Website
-##Description
+## Description
 A website for a YouTube creator where it highlights relevant statistics from the channel among with a showcase of recent videos uploaded. Most part of the website was built was vainilla HTML and CSS, and a few elements with Javascript.
 
 ## What I learned
